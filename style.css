@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{ 
+    background-image: url(https://images.unsplash.com/photo-1485724417692-19b9fb72d5ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+    background-size: cover ;
+} 
+#temp1{
+    transition: background 0.5s, transform 0.5s;
+}
+#temp1:hover{
+    background-color: #B6CCBD;
+    transition: translateY(+5px);
+}
+#humid{
+    transition: background 0.5s, transform 0.5s;
+}
+#humid:hover{
+    background-color: #B6CCBD;
+    transition: translateY(+5px);
+}
+#wind1{
+    transition: background 0.5s, transform 0.5s;
+}
+#wind1:hover{
+    background-color: #B6CCBD;
+    transition: translateY(+5px);
+}
+#cityhead{
+    color: cornsilk;
+}
+#beforecity{
+    color: cornsilk;
+}
+h2{
+    color: cornsilk;
+}
